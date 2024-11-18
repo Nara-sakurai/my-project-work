@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">test</div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <title>Register</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h3 class="text-center mb-4">Register</h3>
+        <form>
+          <!-- Full Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="registerName" class="form-control" required />
+            <label class="form-label" for="registerName">Full Name</label>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="registerEmail" class="form-control" required />
+            <label class="form-label" for="registerEmail">Email address</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="registerPassword" class="form-control" required />
+            <label class="form-label" for="registerPassword">Password</label>
+          </div>
+
+          <!-- Confirm Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="confirmPassword" class="form-control" required />
+            <label class="form-label" for="confirmPassword">Confirm Password</label>
+          </div>
+
+          <!-- Submit button -->
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+          </div>
+
+          <!-- Login link -->
+          <div class="text-center">
+            <p>Already a member? <a href="login.html" class="text-decoration-none">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

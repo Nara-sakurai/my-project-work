@@ -1,0 +1,18 @@
+#carouselExampleIndicators {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .carousel-inner {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .carousel-item img {
+    /* Set a fixed height for all images */
+    width: 100%;        /* Ensure the images take up the full width */
+    height: 400px;      /* Set the height to a fixed value (adjust as needed) */
+    object-fit: cover;  /* Ensures the image fills the space without distortion */
+  }
+  

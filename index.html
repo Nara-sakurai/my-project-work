@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
 
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style_index.css">
     <title>Document</title>
 
   </head>
 
   <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -35,7 +37,7 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Cnntact us</a>
+                <a class="nav-link disabled" href="#">Contact us</a>
               </li>
             </ul>
 
@@ -46,10 +48,10 @@
           </div>
         </div>
       </nav>
-    </div>
+    </div> -->
       
 
-    <div class="carousel">
+    <!-- <div class="carousel">
 
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -91,16 +93,84 @@
       </div>
 
     </div>
-    
+     -->
 
 
 
 
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Login and Register Buttons -->
+        <div class="d-flex">
+          <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+          <a href="register.html" class="btn btn-primary">Register</a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Carousel section -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/whole-and-half-oranges-twit.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/photo_2024-03-17_14-02-47.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Screenshot 2024-11-01 235639.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <!-- Card Information -->
     <div class="container my-5">
       <div class="row" style="justify-content: center;">
         <div class="col-md-3">
           <div class="card">
-            <img src="whole-and-half-oranges-twit.jpg" class="card-img-top" alt="Card Image">
+            <img src="/img/whole-and-half-oranges-twit.jpg" class="card-img-top" alt="Card Image">
             <div class="card-body">
               <h5 class="card-title">Orange</h5>
               <p class="card-text">Oranges are citrus fruits with fragrant, leathery skin and juicy flesh. The most common types are the sweet (or common) orange, the sour (or Seville) orange, and the mandarin orange. The sweet orange is the most widely grown citrus fruit in the world.</p>
@@ -110,7 +180,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img src="whole-and-half-oranges-twit.jpg" class="card-img-top" alt="Card Image">
+            <img src="/img/whole-and-half-oranges-twit.jpg" class="card-img-top" alt="Card Image">
             <div class="card-body">
               <h5 class="card-title">Orange</h5>
               <p class="card-text">Oranges are citrus fruits with fragrant, leathery skin and juicy flesh. The most common types are the sweet (or common) orange, the sour (or Seville) orange, and the mandarin orange. The sweet orange is the most widely grown citrus fruit in the world.</p>
@@ -120,7 +190,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img src="whole-and-half-oranges-twit.jpg" class="card-img-top" alt="Card Image">
+            <img src="/img/whole-and-half-oranges-twit.jpg" class="card-img-top" alt="Card Image">
             <div class="card-body">
               <h5 class="card-title">Orange</h5>
               <p class="card-text">Oranges are citrus fruits with fragrant, leathery skin and juicy flesh. The most common types are the sweet (or common) orange, the sour (or Seville) orange, and the mandarin orange. The sweet orange is the most widely grown citrus fruit in the world.</p>
@@ -130,7 +200,7 @@
         </div>
         <div class="col-md-8">
           <div class="d-flex align-items-center mb-3 p-3">
-            <img src="whole-and-half-oranges-twit.jpg" alt="Card Image" style="width: 300px; height: auto; border-radius: 8px; margin-right: 40px;" />
+            <img src="/img/whole-and-half-oranges-twit.jpg" alt="Card Image" style="width: 300px; height: auto; border-radius: 8px; margin-right: 40px;" />
             <div>
               <h5 class="card-title mb-2">Card title</h5>
               <p class="card-text mb-3">With supporting text below as a natural lead-in to additional content.</p>
