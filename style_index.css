@@ -5,7 +5,7 @@
   }
   
   .carousel-inner {
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
   
@@ -15,7 +15,7 @@
     height: 400px;      /* Set the height to a fixed value (adjust as needed) */
     object-fit: cover;  /* Ensures the image fills the space without distortion */
   }
-  .footer {
+x  .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
   }
