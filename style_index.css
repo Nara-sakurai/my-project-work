@@ -1,3 +1,8 @@
+.navbar-brand img {
+  height: 80px; /* Adjust logo size */
+  width: auto;
+}
+
 #carouselExampleIndicators {
     display: block;
     margin: 0 auto;
@@ -15,7 +20,7 @@
     height: 400px;      /* Set the height to a fixed value (adjust as needed) */
     object-fit: cover;  /* Ensures the image fills the space without distortion */
   }
-x  .footer {
+ .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
   }
