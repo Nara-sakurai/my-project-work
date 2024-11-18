@@ -5,7 +5,7 @@
   }
   
   .carousel-inner {
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
   }
   
@@ -15,4 +15,16 @@
     height: 400px;      /* Set the height to a fixed value (adjust as needed) */
     object-fit: cover;  /* Ensures the image fills the space without distortion */
   }
-  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  .social-icons i:hover {
+    color: #007bff; /* Change to the desired hover color */
+  }
